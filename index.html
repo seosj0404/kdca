@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>대한민국 질병관리청 (KDCA) - 국민 건강 안내 포털</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 헤더 영역 -->
+  <header class="header">
+    <div class="header-container">
+      <div class="logo-area">
+        <div class="logo-badge">KDCA</div>
+        <div class="logo-text">
+          <h1>질병관리청 <span>Korea Disease Control and Prevention Agency</span></h1>
+          <p class="tagline">건강한 국민, 안전한 사회를 만드는 공중보건 컨트롤타워</p>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#intro" class="nav-btn">기관소개</a>
+        <a href="#benefitCheck" class="nav-btn check-highlight">✨ 맞춤 지원 찾기</a>
+        <a href="#duties" class="nav-btn">핵심업무</a>
+        <a href="#trends" class="nav-btn">보건동향</a>
+        <a href="#news" class="nav-btn">최신뉴스</a>
+        <a href="#services" class="nav-btn highlight">주요 대국민 포털</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 메인 히어로 배너 -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <div class="hero-pill">🛡️ 대한민국 공중보건 및 방역의 중심</div>
+      <h2 class="hero-title">국민의 생명과 건강을 지키는<br><span class="text-primary">질병관리청</span>을 소개합니다</h2>
+      <p class="hero-desc">
+        질병관리청(KDCA)은 신종 감염병 대응부터 생애주기별 국가예방접종, 고혈압·당뇨 등 만성질환 관리와 
+        희귀질환 지원, 기후위기 건강대응까지 국민 모두가 안심할 수 있는 건강 안전망을 만듭니다.
+      </p>
+      <div class="hero-actions">
+        <a href="#benefitCheck" class="btn btn-primary hero-btn-highlight">✨ 나에게 맞는 혜택 찾기</a>
+        <a href="#duties" class="btn btn-secondary">주요 업무 알아보기</a>
+        <a href="#news" class="btn btn-outline">최신 방역 소식 ↗</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-card">
+        <div class="stat-icon">🏥</div>
+        <div class="stat-value">24시간 365일</div>
+        <div class="stat-label">긴급상황실 및 방역 감시체계 가동</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">💉</div>
+        <div class="stat-value">국가예방접종</div>
+        <div class="stat-label">어린이·어르신 등 필수 백신 지원</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🩺</div>
+        <div class="stat-value">만성·희귀질환</div>
+        <div class="stat-label">생애주기 건강조사 및 의료비 지원</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🔬</div>
+        <div class="stat-value">국립보건연구원</div>
+        <div class="stat-label">백신·치료제 연구개발 자립화 추진</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 기관 개요 및 비전 -->
+  <section id="intro" class="section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-badge">ABOUT KDCA</span>
+        <h2 class="section-title">질병관리청은 어떤 기관인가요?</h2>
+        <p class="section-subtitle">2020년 보건복지부 소속 '본부'에서 독립된 '청'으로 승격되어 더욱 신속하고 전문적인 방역·보건 사령탑 역할을 수행합니다.</p>
+      </div>
+
+      <div class="mission-grid">
+        <div class="mission-card">
+          <div class="icon-wrap bg-blue">🏛️</div>
+          <h3>비전 및 목표</h3>
+          <p><strong>"건강한 국민, 안전한 사회"</strong>를 비전으로 글로벌 보건 안보를 선도하고, 감염병 위기 신속 대응 및 만성질환 사전 예방을 구축합니다.</p>
+        </div>
+        <div class="mission-card">
+          <div class="icon-wrap bg-teal">⚡</div>
+          <h3>독립적 행정 권한</h3>
+          <p>감염병 예방·방역 정책을 신속하게 독자 수립하고 집행하며, 5개 권역별 질병대응센터를 통해 지자체와 유기적인 현장 방역망을 운영합니다.</p>
+        </div>
+        <div class="mission-card">
+          <div class="icon-wrap bg-purple">🧬</div>
+          <h3>과학적 근거 중심</h3>
+          <p>산하 '국립보건연구원' 및 대규모 보건 빅데이터(국민건강영양조사 등)를 바탕으로 데이터 기반 과학 방역 정책을 실현합니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 국민 맞춤 혜택 & 지원 찾기 (인터랙티브 체크리스트 설문) -->
+  <section id="benefitCheck" class="section benefit-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-badge">BENEFIT FINDER</span>
+        <h2 class="section-title">"나는 질병관리청에서 어떤 도움을 받을 수 있을까?"</h2>
+        <p class="section-subtitle">
+          나와 우리가족의 현재 상황을 체크해 보세요. 질병관리청이 국민 여러분께 제공하는 
+          <strong>국가 무료 백신 지원, 의료비 혜택, 실시간 상담, 건강 서비스</strong>를 맞춤형으로 안내해 드립니다.
+        </p>
+      </div>
+
+      <div class="checker-container">
+        <!-- 체크리스트 폼 -->
+        <div class="checker-box">
+          <div class="checker-box-header">
+            <h3>📋 해당되는 상황을 모두 선택해 주세요 (다중 선택 가능)</h3>
+            <button type="button" class="btn-text-reset" id="resetChecklistBtn">🔄 전체 해제</button>
+          </div>
+
+          <div class="checklist-grid" id="checklistForm">
+            <!-- 그룹 1: 생애주기 및 대상 -->
+            <div class="check-group">
+              <span class="group-title">👶 생애주기 및 가구 구성</span>
+              <label class="check-item">
+                <input type="checkbox" name="benefit" value="infant">
+                <span class="custom-chk"></span>
+                <div class="item-text">
+                  <strong>영유아 또는 어린이(생후 ~ 만 12세 이하) 자녀</strong>가 있어요
+                  <span class="item-desc">어린이 국가필수예방접종 18종 및 독감 백신</span>
+                </div>
+              </label>
+
+              <label class="check-item">
+                <input type="checkbox" name="benefit" value="senior">
+                <span class="custom-chk"></span>
+                <div class="item-text">
+                  <strong>만 65세 이상 어르신</strong>이거나 가족 중 계세요
+                  <span class="item-desc">인플루엔자·코로나19·폐렴구균 국가 무료 접종 및 낙상 예방</span>
+                </div>
+              </label>
+
+              <label class="check-item">
+                <input type="checkbox" name="benefit" value="pregnant">
+                <span class="custom-chk"></span>
+                <div class="item-text">
+                  <strong>임신부</strong>이거나 출산을 준비 중이에요
+                  <span class="item-desc">임신부 인플루엔자 무료 접종 및 감염병 산전 정보</span>
+                </div>
+              </label>
+
+              <label class="check-item">
+                <input type="checkbox" name="benefit" value="hpv">
+                <span class="custom-chk"></span>
+                <div class="item-text">
+                  <strong>만 12~17세 여성 청소년 또는 만 18~26세 저소득층 여성</strong>이에요
+                  <span class="item-desc">사람유두종바이러스(HPV, 자궁경부암) 백신 무료 지원</span>
+                </div>
+              </label>
+            </div>
+
+            <!-- 그룹 2: 질환 및 건강 관리 -->
+            <div class="check-group">
+              <span class="group-title">🩺 질환 및 일상 건강 관리</span>
+              <label class="check-item">
+                <input type="checkbox" name="benefit" value="rare">
+                <span class="custom-chk"></span>
+                <div class="item-text">
+                  <strong>희귀질환 진단을 받았거나 의심</strong>되어 치료비가 부담돼요
+                  <span class="item-desc">희귀질환자 의료비 지원사업, 특수식이 지원 및 전문상담</span>
+                </div>
+              </label>
+
+              <label class="check-item">
+                <input type="checkbox" name="benefit" value="chronic">
+                <span class="custom-chk"></span>
+                <div class="item-text">
+                  <strong>고혈압·당뇨병 등 만성질환</strong>을 앓고 있거나 수치가 걱정돼요
+                  <span class="item-desc">고혈압·당뇨병 등록관리 서비스 및 공인 의학지침 제공</span>
+                </div>
+              </label>
+
+              <label class="check-item">
+                <input type="checkbox" name="benefit" value="travel">
+                <span class="custom-chk"></span>
+                <div class="item-text">
+                  <strong>해외여행 또는 출장</strong>을 앞두고 있어요 (동남아, 중남미, 아프리카 등)
+                  <span class="item-desc">국가별 유행 감염병 정보, 황열·콜레라 접종 기관 및 Q-CODE 안내</span>
+                </div>
+              </label>
+
+              <label class="check-item">
+                <input type="checkbox" name="benefit" value="cert">
+                <span class="custom-chk"></span>
+                <div class="item-text">
+                  취업·입학·유학용 <strong>예방접종 증명서 발급</strong>이 필요해요
+                  <span class="item-desc">정부24 및 예방접종도우미 무료 국·영문 전자증명서 발급</span>
+                </div>
+              </label>
+
+              <label class="check-item">
+                <input type="checkbox" name="benefit" value="counsel">
+                <span class="custom-chk"></span>
+                <div class="item-text">
+                  갑작스러운 <strong>감염병 의심 증상 또는 격리·방역 기준 상담</strong>이 필요해요
+                  <span class="item-desc">국번 없이 1339 콜센터 24시간 365일 실시간 무료 상담</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <div class="checker-action">
+            <button type="button" class="btn btn-primary checker-calc-btn" id="checkResultBtn">
+              🔍 나를 위한 맞춤 혜택 결과 확인하기
+            </button>
+          </div>
+        </div>
+
+        <!-- 결과 표시 영역 (동적 렌더링) -->
+        <div class="result-box" id="resultContainer" style="display: none;">
+          <div class="result-header">
+            <div class="result-header-text">
+              <span class="result-badge">MATCHED BENEFITS</span>
+              <h3 id="resultTitle">국민 맞춤 지원 혜택 결과</h3>
+              <p id="resultSubtitle">선택하신 조건에 따라 질병관리청에서 제공하는 지원책을 정리했습니다.</p>
+            </div>
+            <button type="button" class="btn btn-outline-dark" id="reselectBtn">조건 다시 선택</button>
+          </div>
+
+          <div class="matched-cards" id="matchedCardsContainer">
+            <!-- JS 동적 생성 -->
+          </div>
+
+          <div class="result-callout">
+            <div class="callout-icon">📞</div>
+            <div class="callout-body">
+              <h4>상담이나 추가 지원이 더 필요하신가요?</h4>
+              <p>질병관리청 콜센터 <strong>1339</strong>(국번없이, 365일 24시간 무료)로 전화하시면 전문 상담사가 친절히 안내해 드립니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4대 핵심 업무 섹션 -->
+  <section id="duties" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-badge">CORE MISSIONS</span>
+        <h2 class="section-title">국민의 일상을 지키는 4대 핵심 업무</h2>
+        <p class="section-subtitle">질병관리청이 국민 여러분을 위해 매일 수행하는 주요 활동을 알기 쉽게 정리했습니다.</p>
+      </div>
+
+      <!-- 업무 필터 탭 -->
+      <div class="tab-buttons">
+        <button class="tab-btn active" data-tab="all">전체보기</button>
+        <button class="tab-btn" data-tab="infectious">1. 감염병 예방 및 위기대응</button>
+        <button class="tab-btn" data-tab="vaccine">2. 국가예방접종(NIP) 사업</button>
+        <button class="tab-btn" data-tab="chronic">3. 만성질환·희귀질환 지원</button>
+        <button class="tab-btn" data-tab="safety">4. 기후위기 및 생활 건강안전</button>
+      </div>
+
+      <div class="cards-grid" id="dutiesGrid">
+        <!-- 업무 1: 감염병 위기대응 -->
+        <article class="duty-card" data-category="infectious">
+          <div class="card-tag tag-infectious">감염병 예방 & 위기대응</div>
+          <h3>신종·해외 감염병 24시간 감시 및 차단</h3>
+          <p class="card-desc">
+            코로나19, 신종 인플루엔자, 엠폭스 등 해외 유입 신종 감염병을 공항·항만 검역 단계부터 조기 차단하고,
+            전국 24시간 긴급상황실을 가동하여 위기 경보를 신속히 발령합니다.
+          </p>
+          <ul class="check-list">
+            <li>공항·항만 24시간 스마트 검역 및 검사 체계</li>
+            <li>법정 감염병(1~4급) 실시간 신고·역학조사망 운영</li>
+            <li>국산 mRNA 백신 및 치료제 연구 자립화 지원</li>
+            <li>의료기관 내 감염 및 항생제 내성(슈퍼박테리아) 집중 관리</li>
+          </ul>
+        </article>
+
+        <!-- 업무 2: 국가예방접종 -->
+        <article class="duty-card" data-category="vaccine">
+          <div class="card-tag tag-vaccine">국가예방접종 (NIP)</div>
+          <h3>요람에서 무덤까지, 안심 백신 지원</h3>
+          <p class="card-desc">
+            어린이 필수예방접종부터 어르신 독감·폐렴구균, 임신부 및 취약계층 백신까지 국가가 전액 또는 일부를 지원하여
+            질병 부담 없이 누구나 건강을 지키도록 지원합니다.
+          </p>
+          <ul class="check-list">
+            <li>어린이 18종 국가필수예방접종 전액 무료 지원</li>
+            <li>어르신·어린이 대상 절기 인플루엔자(독감) 백신 지원</li>
+            <li>이상반응 모니터링 및 국가 백신 피해보상 제도 운영</li>
+            <li>예방접종도우미 사이트를 통한 모바일 접종증명서 간편 발급</li>
+          </ul>
+        </article>
+
+        <!-- 업무 3: 만성 및 희귀질환 -->
+        <article class="duty-card" data-category="chronic">
+          <div class="card-tag tag-chronic">만성·희귀질환 관리</div>
+          <h3>심뇌혈관 예방과 희귀질환 환자 의료비 지원</h3>
+          <p class="card-desc">
+            고혈압, 당뇨병, 비만 등 현대인의 주요 만성질환을 사전에 예방하고 관리지표를 조사하며,
+            진단과 치료가 어려운 희귀질환 환자들을 위한 실질적인 의료비와 특수식을 지원합니다.
+          </p>
+          <ul class="check-list">
+            <li>매년 대표 보건통계인 '국민건강영양조사' 실시</li>
+            <li>고혈압·당뇨병 등록관리센터 운영 및 만성질환 예방수칙 보급</li>
+            <li>희귀질환자 의료비 지원 대상 질환 확대 및 전문기관 지정</li>
+            <li>신뢰할 수 있는 국가건강정보포털을 통한 전문 의학정보 제공</li>
+          </ul>
+        </article>
+
+        <!-- 업무 4: 환경 & 안전 -->
+        <article class="duty-card" data-category="safety">
+          <div class="card-tag tag-safety">건강안전 & 기후보건</div>
+          <h3>폭염·한파 건강감시 및 국민 생활안전</h3>
+          <p class="card-desc">
+            기후변화로 심화되는 여름철 온열질환과 겨울철 한랭질환을 전국 응급실 감시체계로 집계·경보하며,
+            낙상사고 예방과 대국민 심폐소생술(CPR) 교육 보급을 담당합니다.
+          </p>
+          <ul class="check-list">
+            <li>여름철 온열질환 / 겨울철 한랭질환 응급실 감시체계 가동</li>
+            <li>심정지 골든타임을 지키는 '심폐소생술(CPR)' 교육 캠페인</li>
+            <li>고령자 낙상사고 등 생활 속 손상 예방 가이드라인 제정</li>
+            <li>방사선 발생장치 안전관리 및 환경성 보건 위해요인 관리</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 실시간 보건 동향 및 인터랙티브 팁 섹션 -->
+  <section id="trends" class="section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-badge">HEALTH TRENDS</span>
+        <h2 class="section-title">국민이 알아야 할 주요 보건동향 & 수칙</h2>
+        <p class="section-subtitle">현재 주목해야 할 공중보건 이슈와 일상생활 속 건강 실천 가이드입니다.</p>
+      </div>
+
+      <div class="trends-container">
+        <!-- 동향 카드 1 -->
+        <div class="trend-box">
+          <div class="trend-header">
+            <span class="trend-badge warn">감시 중</span>
+            <h4>호흡기 감염병 & 인플루엔자(독감) 동향</h4>
+          </div>
+          <p class="trend-text">
+            환절기 및 겨울철 인플루엔자 의심 환자 증가에 따라 고위험군(65세 이상 어르신, 임신부, 생후 6개월~13세 어린이)의
+            적기 예방접종과 30초 이상 올바른 손 씻기, 기침 예절이 매우 중요합니다.
+          </p>
+          <div class="trend-tip">
+            💡 <strong>예방 팁:</strong> 흐르는 물에 비누로 30초 이상 손 씻기, 씻지 않은 손으로 눈·코·입 만지지 않기
+          </div>
+        </div>
+
+        <!-- 동향 카드 2 -->
+        <div class="trend-box">
+          <div class="trend-header">
+            <span class="trend-badge alert">주의 안내</span>
+            <h4>백일해 및 영유아 감염병 주의보</h4>
+          </div>
+          <p class="trend-text">
+            발작성 기침을 유발하는 백일해와 수두 등 주요 호흡기 전염병의 발생 빈도가 높아지고 있습니다.
+            영유아 시기 표준 DTaP 접종 일정을 준수하고 단체 생활 시 마스크 착용을 권장합니다.
+          </p>
+          <div class="trend-tip">
+            💡 <strong>예방 팁:</strong> 생후 2, 4, 6개월 기초접종 및 만 11~12세 추가접종 스케줄을 반드시 확인하세요.
+          </div>
+        </div>
+
+        <!-- 동향 카드 3 -->
+        <div class="trend-box">
+          <div class="trend-header">
+            <span class="trend-badge info">계절 보건</span>
+            <h4>기후변화와 온열·한랭질환 감시체계</h4>
+          </div>
+          <p class="trend-text">
+            질병청은 전국 500여 개 응급실과 연계하여 이상기후로 인한 환자 발생을 매일 모니터링합니다.
+            폭염주의보 발령 시 낮 12시~17시 야외 작업을 자제하고 규칙적으로 수분을 섭취하세요.
+          </p>
+          <div class="trend-tip">
+            💡 <strong>대처 팁:</strong> 열사병 의심 환자 발생 시 즉시 119에 신고 후 시원한 그늘로 옮겨 체온을 낮춰야 합니다.
+          </div>
+        </div>
+
+        <!-- 동향 카드 4 -->
+        <div class="trend-box">
+          <div class="trend-header">
+            <span class="trend-badge good">국가 관리</span>
+            <h4>혈압·혈당 '자기혈관 숫자 알기'</h4>
+          </div>
+          <p class="trend-text">
+            침묵의 살인자로 불리는 고혈압·당뇨병은 초기 증상이 없습니다. 정상 혈압(120/80mmHg 미만)과
+            정상 공복 혈당(100mg/dL 미만)을 정기적으로 측정하고 인지하는 것이 만성질환 예방의 시작입니다.
+          </p>
+          <div class="trend-tip">
+            💡 <strong>관리 팁:</strong> 싱겁게 먹기, 주 3회 30분 이상 유산소 운동, 금연과 절주가 필수입니다.
+          </div>
+        </div>
+      </div>
+
+      <!-- 인터랙티브 미니 퀴즈 / 건강 체크리스트 -->
+      <div class="interactive-box">
+        <div class="quiz-header">
+          <h3>🩺 국민 건강 상식 자가진단 퀴즈</h3>
+          <p>클릭하여 질병관리청 권고 올바른 건강 상식을 확인해 보세요!</p>
+        </div>
+        <div class="quiz-items" id="quizContainer">
+          <!-- JS로 동적 렌더링 -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 최신 뉴스 기사 및 보도자료 (URL 연계) -->
+  <section id="news" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-badge">KDCA NEWS & PRESS</span>
+        <h2 class="section-title">질병관리청 최신 뉴스 및 보도자료</h2>
+        <p class="section-subtitle">
+          공식 보도자료 및 주요 언론사(연합뉴스 등)를 통해 보도된 최신 정책 뉴스를 직접 확인하실 수 있습니다.
+        </p>
+      </div>
+
+      <div class="news-grid" id="newsGrid">
+        <!-- JS로 실제 최신 뉴스 데이터 렌더링 -->
+      </div>
+
+      <div class="official-links-banner">
+        <div class="banner-text">
+          <h4>더 많은 질병관리청 실시간 공지사항과 브리핑을 보시겠습니까?</h4>
+          <p>질병관리청 공식 포털 보도자료실에서 매일 업데이트되는 정부 공식 발표문을 확인하세요.</p>
+        </div>
+        <div class="banner-btns">
+          <a href="https://www.kdca.go.kr/board/board.es?mid=a20501010000&bid=0015" target="_blank" rel="noopener noreferrer" class="btn btn-primary">질병청 공식 보도자료 게시판 ↗</a>
+          <a href="https://www.kdca.go.kr/board/board.es?mid=a20501020000&bid=0016" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">보도설명자료 바로가기 ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 대국민 주요 서비스 포털 안내 -->
+  <section id="services" class="section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-badge">ONLINE SERVICES</span>
+        <h2 class="section-title">국민 필수 질병관리청 대국민 포털 서비스</h2>
+        <p class="section-subtitle">클릭하시면 각 서비스의 공식 웹사이트로 바로 연결됩니다.</p>
+      </div>
+
+      <div class="portal-grid">
+        <a href="https://nip.kdca.go.kr" target="_blank" rel="noopener noreferrer" class="portal-card">
+          <div class="portal-icon">💉</div>
+          <div class="portal-info">
+            <h3>예방접종도우미</h3>
+            <span class="portal-url">nip.kdca.go.kr ↗</span>
+            <p>나와 자녀의 예방접종 내역 조회, 전자 예방접종 증명서 무료 발급, 지정 의료기관 검색</p>
+          </div>
+        </a>
+
+        <a href="https://health.kdca.go.kr" target="_blank" rel="noopener noreferrer" class="portal-card">
+          <div class="portal-icon">📖</div>
+          <div class="portal-info">
+            <h3>국가건강정보포털</h3>
+            <span class="portal-url">health.kdca.go.kr ↗</span>
+            <p>신뢰할 수 있는 전문의 감수 질환 정보, 증상별 자가 체크, 영양 및 생애주기 건강 가이드</p>
+          </div>
+        </a>
+
+        <a href="https://dportal.kdca.go.kr" target="_blank" rel="noopener noreferrer" class="portal-card">
+          <div class="portal-icon">📊</div>
+          <div class="portal-info">
+            <h3>감염병포털</h3>
+            <span class="portal-url">dportal.kdca.go.kr ↗</span>
+            <p>법정감염병 발생 통계, 국내외 감염병 유행 동향, 주간 감염병 감시 정보 제공</p>
+          </div>
+        </a>
+
+        <a href="https://helpline.kdca.go.kr" target="_blank" rel="noopener noreferrer" class="portal-card">
+          <div class="portal-icon">🤝</div>
+          <div class="portal-info">
+            <h3>희귀질환 헬프라인</h3>
+            <span class="portal-url">helpline.kdca.go.kr ↗</span>
+            <p>희귀질환자 의료비 지원 사업 안내, 지정 질환 목록 조회, 온라인 지원 신청 안내</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 하단 푸터 -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <h3>질병관리청 안내 웹 포털</h3>
+        <p>충청북도 청주시 흥덕구 오송읍 오송생명2로 187 오송보건의료행정타운 질병관리청</p>
+        <p>질병관리청 콜센터: <strong>국번없이 1339</strong> (24시간 365일 무료 감염병 상담)</p>
+      </div>
+      <div class="footer-right">
+        <p class="copyright">본 포털은 국민의 공중보건 이해를 돕기 위해 제작된 안내 웹 앱입니다.</p>
+        <p class="links">
+          <a href="https://www.kdca.go.kr" target="_blank" rel="noopener noreferrer">공식 홈페이지</a> |
+          <a href="https://nip.kdca.go.kr" target="_blank" rel="noopener noreferrer">예방접종도우미</a> |
+          <a href="https://health.kdca.go.kr" target="_blank" rel="noopener noreferrer">국가건강정보포털</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
